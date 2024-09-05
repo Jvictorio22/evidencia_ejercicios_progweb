@@ -17,7 +17,7 @@
         </header>
 
         <nav>
-            <!--Atajos-->>
+            <!--Atajos-->
             <ul>
                 <li><a href="#rutinaPush" title="Push">Push</a></li>
                 <li><a href="#rutinaPull" title="Pull">Pull</a></li>
@@ -162,20 +162,88 @@
         </section>
 
         <section>
-            <!--Links-->
-            <p>Visita sitios externos: <a target="_blank" href="https://www.menshealth.com/es/fitness/a34414380/entrenamiento-push-pull-legs/"> CLICK AQUÍ</a></p>
-        </section>
-
-        <section>
             <hr>
             <h3>Echale un vistazo rapido a mi primera página de HTML</h3>
             <iframe src="../primer_pagina/index.html"></iframe>
+            <hr>
         </section>
 
         </main>
 
         <footer>
-            
+            <form action="/submit" method="post">
+                <fieldset>
+
+                    <!--INPUT-->
+                    <label for="nombre">Ingresa tu nombre</label>
+                    <input 
+                    type="text"
+                    id="nombre"
+                    name="nombre"
+                    placeholder="Ingresa tu nombre"
+                    required
+                    ><br><br>
+
+
+                    <!--INPUT-CORREO-->
+                    <legend><b>Te contactamos para brindarte una rutina personalizada</b></legend>
+                    <label for="email">Email</label>
+                    <input 
+                        type="email" 
+                        id="email" 
+                        name="email" 
+                        placeholder="Ingresa tu correo"
+                        required
+                    ><br><br>
+
+                    <!--TEXT-AREA-->
+                    <label for="descripcion">Describe tu meta</label>
+                        <textarea 
+                            required
+                            name="descripcion"
+                            rows="1"
+                            cols="40"
+                            placeholder="Ingresa tu descripción">
+                        </textarea>
+                    </label>
+                    <br><br>
+    
+
+                    <!--Option-->
+                    <label for="Musculo">Grupo Muscular Preferido</label>
+                    <select name="Musculo" id="Musculo">
+                        <optgroup label="Push">
+                            <option value="shoulder">Hombro</option>
+                            <option value="chest" selected>Pecho</option>
+                        </optgroup>
+                        <optgroup label="Pull">
+                            <option value="back">Espalda</option>
+                            <option value="biceps">Biceps</option>
+                        </optgroup>
+                        <optgroup label="Legs">
+                            <option value="legs">Pierna</option>
+                        </optgroup>
+                    </select>
+                    <br><br>
+                    
+                    <!--DATALIST-->
+                    <label for="meta">¿Bajar de Peso o Ganar Masa?</label>
+                    <input minlength="5" maxlength="20" id="meta" type="text" list="opciones-meta">
+                    <datalist id="opciones-meta" name="Meta">
+                        <option value="Bajar de peso"></option>
+                        <option value="Ganar Masa Muscular"></option>
+                    </datalist><br><br>
+    
+
+                    <!--BUTTOM-->
+                    <button type="submit">Enviar</button>
+                </fieldset>
+            </form>
+
+                <!--Link-->
+                <hr>
+                <p>Visita sitios externos: <a target="_blank" href="https://www.menshealth.com/es/fitness/a34414380/entrenamiento-push-pull-legs/"> CLICK AQUÍ</a></p>
+
         </footer>
         
         
