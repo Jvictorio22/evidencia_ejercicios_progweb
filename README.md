@@ -7,5 +7,5 @@ UNIDAD 2
 - [Primer Página](/primer_pagina/index.html)
 
 UNIDAD 3
-- [Ejercicio #1 - Formato de texto, fuentes, fondos y border]
+- [Ejercicio #1 - Formato de texto, fuentes, fondos y border](u3_Ejercicio1/index.html)
 
