@@ -1,0 +1,31 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.tarjeta {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 420px;
+    border: 2px solid orange;
+    box-shadow: 2px 2px 8px;
+    border-radius: 15px;
+    font-family: 'Times New Roman', Times;
+}
+
+.pie {
+    text-align: center;
+}
+
+.pie-boton {
+    font-size: 30px;
+    background-color: coral; 
+}
+
+h1{
+    text-align: center;
+}
