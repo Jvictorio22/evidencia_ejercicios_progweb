@@ -1,6 +1,6 @@
 body {
-    margin: 0 auto;
-    padding: 0;
+    margin: 20px auto;
+    padding: 10px;
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -9,7 +9,7 @@ body {
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     width: 420px;
     border: 2px solid orange;
     box-shadow: 2px 2px 8px;
