@@ -9,4 +9,6 @@ UNIDAD 2
 UNIDAD 3
 - [Ejercicio #1 - Formato de texto, fuentes, fondos y border](u3_Ejercicio1/index.html)
 - [Ejercico #2 - Tarjeta](u3_ejercicio_2/index.html)
+- [Ejercicio #3 - Header sticky](u3_ejercicio3/index.html)
+
 
