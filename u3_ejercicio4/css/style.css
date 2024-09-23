@@ -1,6 +1,6 @@
 body {
     font-family: 'Times New Roman', Times;
-    background-color: #ff770f;
+    background-color: hsl(26, 100%, 53%);
     margin: 0;
     padding: 20px;
 }
@@ -8,9 +8,10 @@ body {
 form {
     background-color: #fff;
     padding: 20px;
-    max-width: 300px;
+    max-width: 500px;
     border-radius: 4%;
-    margin: 0 auto;
+    margin: auto;
+    margin-top: 65px;
 }
 
 fieldset {
