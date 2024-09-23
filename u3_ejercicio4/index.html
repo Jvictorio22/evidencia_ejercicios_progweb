@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario con Pseudoclases y Pseudoelementos</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div>
+        <form action="/submit" method="post">
+            <fieldset>
+
+                <!--INPUT-->
+                <label for="nombre">Ingresa tu nombre</label>
+                <input 
+                type="text"
+                id="nombre"
+                name="nombre"
+                placeholder="Ingresa tu nombre"
+                required>
+
+
+                <!--INPUT-CORREO-->
+                <legend><b>Te contactamos para brindarte una rutina personalizada</b></legend>
+                <label for="email">Email</label>
+                <input 
+                    type="email" 
+                    id="email" 
+                    name="email" 
+                    placeholder="Ingresa tu correo"
+                    required>
+
+                <!--TEXT-AREA-->
+                <label for="descripcion">Describe tu meta</label>
+                    <textarea 
+                        required
+                        name="descripcion"
+                        rows="1"
+                        cols="10"
+                        placeholder="Ingresa tu descripción">
+                    </textarea>
+                </label>
+
+
+                <!--Option-->
+                <label for="Musculo">Grupo Muscular Preferido</label>
+                <select name="Musculo" id="Musculo">
+                    <optgroup label="Push">
+                        <option value="shoulder">Hombro</option>
+                        <option value="chest" selected>Pecho</option>
+                    </optgroup>
+                    <optgroup label="Pull">
+                        <option value="back">Espalda</option>
+                        <option value="biceps">Biceps</option>
+                    </optgroup>
+                    <optgroup label="Legs">
+                        <option value="legs">Pierna</option>
+                    </optgroup>
+                </select> 
+                
+                <!--DATALIST-->
+                <label for="meta">¿Bajar de Peso o Ganar Masa?</label>
+                <input minlength="5" maxlength="20" id="meta" type="text" list="opciones-meta">
+                <datalist id="opciones-meta" name="Meta">
+                    <option value="Bajar de peso"></option>
+                    <option value="Ganar Masa Muscular"></option>
+                </datalist>
+
+
+                <!--BUTTOM-->
+                <button type="submit">Enviar</button>
+            </fieldset>
+        </form>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,67 @@
+body {
+    font-family: 'Times New Roman', Times;
+    background-color: #ff770f;
+    margin: 0;
+    padding: 20px;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    max-width: 300px;
+    border-radius: 4%;
+    margin: 0 auto;
+}
+
+fieldset {
+    border: 4px solid #000000;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 15px;
+}
+
+legend {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+input, textarea, select, button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+input:focus, textarea:focus, select:focus {
+    border-color: #008080;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 128, 128, 0.5);
+}
+
+button:hover {
+    background-color: #800000;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+label::after {
+    content: " *";
+    color: rgb(221, 70, 0);
+    font-weight: normal;
+    display: inline;
+}
+
+label::first-letter{
+    color: rgb(176, 0, 0);
+    font-size: 1.3em;
+}
+
