@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #ffaa00;
+    position: sticky;
+    top: 0;
+}
+
+h1{
+    text-align: center;
+}
+
+nav {
+    width: 100%;
+    background-color: #00113B;
+    text-align: center;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+ 
+li {
+    padding: 10px;
+}
+
+a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.4em;
+}
+
+.box {
+    display: inline-block;
+    padding: 1%;
+    vertical-align: top;
+}
+
+.logo {
+    width: 20%;
+    height: 50px;
+}
+
+.logo-image {
+    width: 20%;
+    height: 60px;
+    padding: 0 0 0 1%;
+}
+
+.logo-titulo {
+    font-size: 2.0em;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+.search-container {
+    display: inline-flex;
+    align-items: center;
+    margin: 32px;
+    position: relative;
+    left: -70px;
+}
+
+input {
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    width: 800px;
+}
+
+.search-icon {
+    margin-left: 5px;
+    width: 25px;
+    height: 25px;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    margin-left: 50px;
+}
+
+.tarjeta-contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.tarjeta {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 420px;
+    border: 2px solid orange;
+    box-shadow: 2px 2px 8px;
+    border-radius: 15px;
+    font-family: 'Times New Roman', Times;
+}
+
+.pie {
+    text-align: center;
+}
+
+.pie-boton {
+    font-size: 30px;
+    background-color: coral; 
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    background-color:  #4f79e4;
+    width: 190px;
+    z-index: auto;
+    top: 95%;
+    padding: 0;
+}
+
+li:hover .submenu{
+    display: block;
+}
+
+.submenu li {
+    text-align: left;
+    display: block;
+    padding: 10px;
+}
+
+.submenu li:hover {
+    background: #ffaa00;
+}
