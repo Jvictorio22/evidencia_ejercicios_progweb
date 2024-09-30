@@ -12,5 +12,6 @@ UNIDAD 3
 - [Ejercicio #3 - Header sticky](u3_ejercicio3/index.html)
 - [Ejercicio #4 - Formulario con estilos, pseudoelementos y pseudoclases](u3_ejercicio4/index.html)
 - [Ejercicio #5 - Sitio con tarjetas (Flex)](u3_ejercicio5/index.html)
+- [Ejercicio #6 - Variables y funciones](u3_ejercicio6/index.html)
 
 
