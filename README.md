@@ -13,5 +13,5 @@ UNIDAD 3
 - [Ejercicio #4 - Formulario con estilos, pseudoelementos y pseudoclases](u3_ejercicio4/index.html)
 - [Ejercicio #5 - Sitio con tarjetas (Flex)](u3_ejercicio5/index.html)
 - [Ejercicio #6 - Variables y funciones](u3_ejercicio6/index.html)
-
+- [Ejercicio #7 - CSS Grid](u3_ejercicio7/index.html)
 
