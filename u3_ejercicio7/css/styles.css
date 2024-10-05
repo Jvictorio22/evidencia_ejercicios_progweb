@@ -37,6 +37,8 @@ nav {
     background-color: var(--color-secundario);
     text-align: center;
     padding: 0;
+    position: relative;
+    z-index: 999;
 }
 
 ul {
@@ -106,6 +108,38 @@ input {
     margin-left: 50px;
 }
 
+.grid-contenedor {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-auto-rows: minmax(100px, auto);
+    gap: 60px;
+    min-height: 50vh;
+    padding: 50px;
+}
+
+.imagen-grid {
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.imagen-grid img {
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
+
+.imagen-grid p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5rem;
+    color: rgb(0, 0, 0); 
+    text-shadow: 0 0 8px var(--color-secundario);
+    font-weight: bold;
+}
+
 .tarjeta-contenedor {
     display: flex;
     flex-wrap: wrap;
@@ -139,8 +173,7 @@ input {
     position: absolute;
     background-color: var(--color-hover);
     width: 190px;
-    z-index: auto;
-    top: 95%;
+    top: 100%;
     padding: 0;
 }
 
