@@ -228,7 +228,7 @@ li:hover .submenu {
 }
 
 /* Responsivo */
-@media (min-width: 320px) and (max-width: 480px) {
+@media (max-width: 480px) {
 
     header {
         position: absolute;
@@ -242,16 +242,15 @@ li:hover .submenu {
 
     .search-container {
         display: grid;
-        grid-template-columns: 2fr 5fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 5fr 1fr 1fr 1fr;
         justify-items: center;
         align-items: center;
-        gap: 14px;
+        gap: 5px;
     }
 
     .logo-imagen {
-        width: 50px;
-        height: 50px;
-        margin-right: 30px;
+        width: 30px;
+        height: 30px;
     }
 
     .logo-titulo {
@@ -259,25 +258,25 @@ li:hover .submenu {
     }
 
     input {
-        width: 150%; 
+        width: 100%; 
     }
 
     .icon {
-        width: 40px;
-        height: 40px;
+        width: 6vw;
+        height: 6vw;
         margin: 5px 0 5px  ;
     }
 
     .search-icon {
-        height: 30px;
-        width: 30px;
-        margin-left: 18px;
+        height: 25px;
+        width: 25px;
+        margin-left: 22px;
     }
 
     .grid-contenedor {
         display: grid;
         grid-template-columns: 1fr;
-        gap: 50px;
+        gap: 20px;
         padding: 20px;
         margin-top: 100px;
     }
@@ -287,10 +286,14 @@ li:hover .submenu {
         font-size: 1.4rem;
     }
     
-
     .tarjeta {
         width: 100%;
-        margin-bottom: 50px;
+        margin-bottom: 60px;
+    }
+
+    .tarjeta img {
+        height: 200px;
+
     }
 
     .pie {
