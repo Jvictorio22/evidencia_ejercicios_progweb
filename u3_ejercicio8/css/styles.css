@@ -231,7 +231,7 @@ li:hover .submenu {
 @media (max-width: 480px) {
 
     header {
-        position: absolute;
+        position: relative;
         top: 0;
         padding: 20px;
     }
@@ -241,16 +241,15 @@ li:hover .submenu {
     }
 
     .search-container {
-        display: grid;
-        grid-template-columns: 1fr 5fr 1fr 1fr 1fr;
-        justify-items: center;
+        display: flex;
+        justify-content: space-evenly;
         align-items: center;
-        gap: 5px;
+        gap: 15px;
     }
 
     .logo-imagen {
-        width: 30px;
-        height: 30px;
+        width: 8vw;
+        height: 8vw;
     }
 
     .logo-titulo {
@@ -259,26 +258,25 @@ li:hover .submenu {
 
     input {
         width: 100%; 
+        margin-left: 0;
     }
 
     .icon {
         width: 6vw;
         height: 6vw;
-        margin: 5px 0 5px  ;
+        margin: 8px 0 6px  ;
     }
 
     .search-icon {
-        height: 25px;
-        width: 25px;
-        margin-left: 22px;
+        display: none;
     }
 
     .grid-contenedor {
         display: grid;
         grid-template-columns: 1fr;
         gap: 20px;
-        padding: 20px;
-        margin-top: 100px;
+        padding: 10px;
+        margin-top: 20px;
     }
 
     .texto-grid {
