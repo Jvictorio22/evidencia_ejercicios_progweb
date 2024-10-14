@@ -15,4 +15,5 @@ UNIDAD 3
 - [Ejercicio #6 - Variables y funciones](u3_ejercicio6/index.html)
 - [Ejercicio #7 - CSS Grid](u3_ejercicio7/index.html)
 - [Ejercicio #8 - Sitio responsivo](u3_ejercicio8/index.html)
+- [Ejercicio #9 - Examen](u3_examen/index.html)
 
