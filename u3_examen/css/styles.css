@@ -126,7 +126,7 @@ input {
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 1.5rem;
-    color: rgb(0, 0, 0); 
+    color: rgb(0, 0, 0);
     text-shadow: 0 0 8px var(--color-secundario);
     font-weight: bold;
 }
@@ -184,7 +184,7 @@ li:hover .submenu {
     background: var(--color-principal);
 }
 
-.footer-contenedor{
+.footer-contenedor {
     background-color: var(--color-secundario);
     color: var(--color-terciario);
     padding: 10px;
@@ -200,7 +200,7 @@ li:hover .submenu {
     padding: 20px;
 }
 
-.footer-lista ul{
+.footer-lista ul {
     display: flex;
     flex-direction: column;
     padding: 0;
@@ -231,6 +231,13 @@ li:hover .submenu {
 
 .img-ofertas {
     height: 400px;
+}
+
+.img-soporte {
+    width: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .menu-hamburguesa {
@@ -295,16 +302,16 @@ li:hover .submenu {
     ul {
         position: fixed;
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-start;
         width: 100%;
-        top: 14%;
-        height: 100vh;
+        top: 15%;
+        height: 100%;
         background: var(--color-secundario);
         left: -120%;
         text-align: center;
         transition: all 0.5s;
     }
-    
+
     .submenu {
         display: none !important;
     }
@@ -313,19 +320,19 @@ li:hover .submenu {
     nav ul li {
         display: block;
         margin: 10px;
-        line-height: 50px;
+        line-height: 40px;
     }
-    
+
 
     nav ul li a {
         font-size: 25px;
         color: var(--color-terciario);
     }
 
-    #check:checked + label + nav ul {
+    #check:checked+label+nav ul {
         left: 0;
     }
-    
+
     .grid-contenedor {
         display: grid;
         grid-template-columns: 1fr;
@@ -339,7 +346,7 @@ li:hover .submenu {
         font-size: 1.7rem;
         text-align: center;
     }
-    
+
     .tarjeta {
         width: 100%;
         margin-bottom: 60px;
