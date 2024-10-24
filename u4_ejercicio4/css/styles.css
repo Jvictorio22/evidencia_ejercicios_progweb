@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex: auto;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: rgb(151, 150, 149);
+}
+.input-tarea {
+    width: 70%;
+    border-radius: 8px 8px 8px;
+}
+
+li {
+    list-style: none;
+}
