@@ -21,7 +21,7 @@ function agregarTarea () {
 // Funcion para agregar la tarea a la lista con boton y checkbox
 function agregarTareaLista (tareaAgregar) {
     const nuevaTarea = document.createElement("li");
-        nuevaTarea.className = "list-group-item d-flex justify-content-between align-items-center mb-0"
+        nuevaTarea.className = "list-group-item d-flex justify-content-between align-items-center mb-0 bg-light";
 
         //Añadir el checkbox y el boton a las tareas
         const añadirCheckbox = document.createElement
