@@ -58,21 +58,23 @@ function agregarTareaLista (tareaAgregar) {
         listaHistorial.appendChild(nuevaTarea);
 }
 
-// funcion para eliminar la tarea, haciendo que se tambien del arreglo
+// Funcion para eliminar la tarea, haciendo que se tambien del arreglo
 function eliminarTarea (tareaEliminar, tareaAgregar) {
     listaHistorial.removeChild(tareaEliminar)
    
-    // el filter sirve para filtrar el array y devuelve únicamente los resultados que se quieran, es este caso eliminando del historial los que no esten en el arreglo de lista de tareas
+    // El filter sirve para filtrar el array y devuelve únicamente los resultados que se quieran, es este caso eliminando del historial los que no esten en el arreglo de lista de tareas
     historial = historial.filter(t => t.texto !== tareaAgregar.texto);
     guardarHistorial();
     actualizarHistorial();
 }
 
-// funcion para guardar el historial cuando se agregue un nuevo elemento
+// Funcion para guardar el historial cuando se agregue un nuevo elemento
 function guardarHistorial (nuevaTarea) {
-    if (nuevaTarea) historial.push(nuevaTarea);
+    if (nuevaTarea) {
+        historial.push(nuevaTarea);
+        agregarTareaLista(nuevaTarea);
+    }
     localStorage.setItem("Historial", JSON.stringify(historial));
-    agregarTareaLista(nuevaTarea);
 } 
 
 // funcion para actualizar el historial
