@@ -30,9 +30,8 @@ function displayBreedDetails(breed){
     wikiLink.href = breed.breeds[0]?.wikipedia_url || '#';
 }
 
-async function loadBreedDetails() {
+
+window.addEventListener('DOMContentLoaded', async () => {
     const breed = await getBreedDetails(breedId);
     displayBreedDetails(breed);
-}
-
-window.addEventListener('DOMContentLoaded', loadBreedDetails);
+});
