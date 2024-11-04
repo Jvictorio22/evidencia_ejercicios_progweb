@@ -1,6 +1,6 @@
 const catGrid = document.getElementById('catGrid');
 
-export function showBreeds(breeds){
+export function showBreeds(breeds) {
     catGrid.innerHTML = ''; // Limpiar cuadrícula
     breeds.forEach(breed => {
         const catCard = document.createElement('div');
@@ -16,7 +16,7 @@ export function showBreeds(breeds){
 }
 
 
-export function updateButtons(currentPage, breedCount, limit){
+export function updateButtons(currentPage, breedCount, limit) {
     document.getElementById('prevPage').disabled = currentPage === 1;
     document.getElementById('nextPage').disabled = breedCount < limit;
 }

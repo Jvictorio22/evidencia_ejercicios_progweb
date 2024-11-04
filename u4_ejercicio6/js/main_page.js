@@ -8,11 +8,11 @@ async function loadBreeds(page) {
     const breeds = await getBreeds(page, limit);
     showBreeds(breeds);
     updateButtons(currentPage, breeds.length, limit);
-    
+
 }
 
 document.getElementById('prevPage').addEventListener('click', () => {
-    if(currentPage > 1){
+    if (currentPage > 1) {
         currentPage--;
         loadBreeds(currentPage);
     }
