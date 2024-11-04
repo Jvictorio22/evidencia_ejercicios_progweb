@@ -19,6 +19,7 @@ UNIDAD 3
 
 UNIDAD 4
 - [Ejercicio #1 - Calculadora](u4_ejercicio1/index.html)
-- [Ejercicio 2 - Manipulación de estilos](u4_ejercicio2/index.html)
-- [Ejercicio 4 - Lista de tareas](u4_ejercicio4/index.html)
-- [Ejercicio 5 - Tarjeta con datos base de un gato](u4_ejercicio5/raza_gato.html)
+- [Ejercicio #2 - Manipulación de estilos](u4_ejercicio2/index.html)
+- [Ejercicio #4 - Lista de tareas](u4_ejercicio4/index.html)
+- [Ejercicio #5 - Tarjeta con datos base de un gato](u4_ejercicio5/raza_gato.html)
+- [Ejercicio #6 - Modules](u4_ejercicio6/index.html)
